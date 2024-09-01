@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">MySite</a>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Welcome to MySite</h1>
+            <p>Your success starts here.</p>
+            <a href="#cta" class="cta-button">Get Started</a>
+        </div>
+    </header>
+    <main>
+        <section id="features">
+            <h2>Services</h2>
+            <div class="feature">
+                <img src="img1.jpg" alt="User Experience">
+                <div class="feature-content">
+                    <h3>User Experience</h3>
+                    <p>Our platform is designed with a focus on user experience, ensuring that your visitors have a seamless and enjoyable interaction. From intuitive navigation to fast load times, every aspect is optimized for ease of use.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="img2.jpg" alt="Creative Design">
+                <div class="feature-content">
+                    <h3>Creative Design</h3>
+                    <p>Stand out with our creative design solutions. Our designs are not only visually appealing but also strategically crafted to capture attention and drive engagement. We blend aesthetics with functionality to create memorable experiences.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="images/react-ready.jpg" alt="React Ready">
+                <div class="feature-content">
+                    <h3>React Ready</h3>
+                    <p>Built with React in mind, our solution is fully compatible with React components. This ensures smooth integration with modern web applications, providing a responsive and dynamic user experience.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 MySite. All rights reserved.</p>
+    </footer>
+</body>
+</html>
