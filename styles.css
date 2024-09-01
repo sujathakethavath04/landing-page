@@ -1,0 +1,55 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #f60;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+  
+    
